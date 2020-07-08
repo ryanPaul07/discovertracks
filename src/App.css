@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainView {
+  background: rgb(41, 41, 44);
+  height: 100vh;
+  width: 100vw;
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.Tracks {
+  width: 25vh;
+  height: 100vh;
+  color: #DCE3EB;
+  overflow: auto;
+  background: rgb(28, 28, 30);
+}
+
+.trackArray {
+  display: flex;
+  padding: 20px 0 20px 0;
+}
+
+.not-selected {
+  display: flex;
+  align-self: center;
   flex-direction: column;
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.not-selected:hover {
+  color: rgb(247, 160, 175); 
+}
+
+.selected {
+  color: rgb(247, 55, 95); 
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mailToView {
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.mailTo {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.mailTo a {
   color: white;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.mailTo a:hover {
+  color: rgb(247, 160, 175); 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Video {
+  flex-grow: 1;
 }
+
+.urlBlogSource a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.urlBlogSource a:hover {
+  color: rgb(247, 160, 175); 
+  text-decoration: none;
+}
+
+.videoOpt {
+  display: flex;
+  align-items: flex-end;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;       /* Alernate backgorundSize options: "cover"/"contian"/"100% 100%" */
+  height: 100%;
+  width: 100%;
+}
+
+
