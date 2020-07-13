@@ -20,7 +20,7 @@ function ExpiredToken(props) {
         <Modal.Body>
           Please click the    
           <a style={{color:'#1DB954'}} href="https://discoversongs.herokuapp.com/" target="_blank" rel="noopener noreferrer" role="button"> link </a>
-          to access the website again.
+          to access the website again!
         </Modal.Body>
       </Modal>
     </>
