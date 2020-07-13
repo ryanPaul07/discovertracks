@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 .vscode/
+src/spotifyWebAPI/spotify_config.js
+src/tumblr_config.js
 
 # testing
 /coverage
