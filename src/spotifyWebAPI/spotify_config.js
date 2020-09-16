@@ -5,7 +5,7 @@ export const authEndpoint = "https://accounts.spotify.com/authorize";
 
 // Parameters attached to the URI
 export const clientId = process.env.REACT_APP_SPOTIFY_API_CLIENT_ID;
-export const redirectUri = "https://discoversongs.herokuapp.com/";
+export const redirectUri = "http://ryanPaul07.github.io/discovertracks";
 export const scope = [
   "user-read-private", 
   "user-read-email", 
