@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/discovertracks/static/css/main.410b57ed.chunk.css",
+    "main.js": "/discovertracks/static/js/main.1ff4c938.chunk.js",
+    "main.js.map": "/discovertracks/static/js/main.1ff4c938.chunk.js.map",
+    "runtime-main.js": "/discovertracks/static/js/runtime-main.4a9f22de.js",
+    "runtime-main.js.map": "/discovertracks/static/js/runtime-main.4a9f22de.js.map",
+    "static/css/2.de424728.chunk.css": "/discovertracks/static/css/2.de424728.chunk.css",
+    "static/js/2.abf06944.chunk.js": "/discovertracks/static/js/2.abf06944.chunk.js",
+    "static/js/2.abf06944.chunk.js.map": "/discovertracks/static/js/2.abf06944.chunk.js.map",
+    "index.html": "/discovertracks/index.html",
+    "precache-manifest.811fc2248c612eb669329353d4a885a2.js": "/discovertracks/precache-manifest.811fc2248c612eb669329353d4a885a2.js",
+    "service-worker.js": "/discovertracks/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/discovertracks/static/css/2.de424728.chunk.css.map",
+    "static/css/main.410b57ed.chunk.css.map": "/discovertracks/static/css/main.410b57ed.chunk.css.map",
+    "static/js/2.abf06944.chunk.js.LICENSE.txt": "/discovertracks/static/js/2.abf06944.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a9f22de.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.abf06944.chunk.js",
+    "static/css/main.410b57ed.chunk.css",
+    "static/js/main.1ff4c938.chunk.js"
+  ]
+}
