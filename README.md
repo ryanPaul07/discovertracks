@@ -1,1 +1,1 @@
-[DiscoverTracks](https://ryanpaul07.github.io/discovertracks/).
+[DiscoverTracks](https://ryanpaul07.github.io/discovertracks/)
